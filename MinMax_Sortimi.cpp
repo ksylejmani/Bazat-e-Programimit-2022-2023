@@ -10,7 +10,8 @@ int main(){
     cin>>b;
     int max=d[a-1];
     int min=d[a-1];
-    for(int i=a;i<b;i++){
+    for(int i=a;i<b
+    ;i++){
         if(d[i]>max){
             max=d[i];
             cout<<"Test\n";
