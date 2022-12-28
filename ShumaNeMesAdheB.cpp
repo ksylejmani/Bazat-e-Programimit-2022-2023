@@ -1,4 +1,14 @@
 #include<iostream>
+int shuma(int a,int b, int c);//Hapi i pare
+int main(){
+    int a,b,c;
+    std::cout<<"Cakto a, b dhe c: ";
+    std::cin>>a>>b>>c;
+    int s;
+    s=shuma(a,b,c);
+    std::cout<<"Shuma: "<<s<<std::endl;
+    return 0;
+}
 int shuma(int a, int b, int c){
     int s=0;
     for(int i=a;i<=c;i++){
@@ -10,12 +20,4 @@ int shuma(int a, int b, int c){
         }
     }
     return s;
-}int main(){
-    int a,b,c;
-    std::cout<<"Cakto a, b dhe c: ";
-    std::cin>>a>>b>>c;
-    int s;
-    s=shuma(a,b,c);
-    std::cout<<"Shuma: "<<s<<std::endl;
-    return 0;
 }
