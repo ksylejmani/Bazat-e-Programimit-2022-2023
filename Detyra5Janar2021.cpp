@@ -6,6 +6,7 @@ int main(){
     cout<<"Vlerat e matrices\n";
     for(int i=0;i<m;i++){
         for(int j=0;j<m;j++){
+
             cout<<"A["<<i+1<<"]["<<j+1<<"]: ";
             cin>>A[i][j];
         }

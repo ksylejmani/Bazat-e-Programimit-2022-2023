@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    const int m=8;
+    const int m=8;   
     int v[m];
     cout<<"Cakto anetaret e vargut:\n";
     for(int i=0;i<m;i++){
